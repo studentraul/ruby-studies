@@ -14,6 +14,9 @@ Logo, pra instala-lo, basta digitar `gem install rails`
 
 - Rails é uma GEM! :O
 - [Instalação do Ruby no Linux](https://gist.github.com/raulfdm/7f6e1e18b7565ba8cc2ec1c8459acfb2)
+- IRB = É um terminal Ruby para execução de códigos sem precisar criar arquivos, igual o terminal do node.
+- Instrução `puts`: Imprimi algum retorno. Similar ao console log?
+- Comentar linha: `#`
 
 ### Comandos
 - `gem list`: Retorna todas as Gems
