@@ -67,3 +67,16 @@ myHash.values #["Raul", "de Melo"]
 ```ruby
 myHash.count # 2
 ```
+
+## Range
+Parecido com o Array, mas é um pouco mais inteligente! É uma forma de definir um range entre 2 valores, por exemplo:
+> Quero um array do número 1 até 300
+
+```ruby
+inicial     = 1
+final       = 300
+meuRange    = inicial..final
+
+meuRange.to_a # Retorna array com 1 até 300 elementos)
+
+```

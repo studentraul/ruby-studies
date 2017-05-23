@@ -17,6 +17,13 @@ Logo, pra instala-lo, basta digitar `gem install rails`
 - IRB = É um terminal Ruby para execução de códigos sem precisar criar arquivos, igual o terminal do node.
 - Instrução `puts`: Imprimi algum retorno. Similar ao console log?
 - Comentar linha: `#`
+- Para receber um parâmetro via execução de código, usa-se `ARGV` (array)
+```ruby
+nome = ARGV[0]
+senha = ARGV[1]
+
+puts "#{nome} e #{senha}"
+```
 
 ### Comandos
 - `gem list`: Retorna todas as Gems
